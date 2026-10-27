@@ -1,0 +1,71 @@
+{
+  "passed": 13,
+  "results": [
+    {
+      "detail": "6fd0afa1ee1298ec96f18ba6d21da488",
+      "eval": "E1_generator_determinism",
+      "pass": true
+    },
+    {
+      "detail": "spend=4371284.92",
+      "eval": "E2_seeded_totals",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "eval": "E3_adstock_math",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "eval": "E4_hill_math",
+      "pass": true
+    },
+    {
+      "detail": "max_err=0.00e+00",
+      "eval": "E5_decomposition_conservation",
+      "pass": true
+    },
+    {
+      "detail": "radio_roi=5.1313",
+      "eval": "E6_roi_ranking",
+      "pass": true
+    },
+    {
+      "detail": "r2=0.9931 max_err_pct=10.21",
+      "eval": "E7_fit_recovery",
+      "pass": true
+    },
+    {
+      "detail": "radio=3.2889 tv=1.836",
+      "eval": "E8_marginal_roi_ranking",
+      "pass": true
+    },
+    {
+      "detail": "delta=167596.03",
+      "eval": "E9_simulator_delta",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "eval": "E10_validation_flags_and_clean",
+      "pass": true
+    },
+    {
+      "detail": "0/1/2",
+      "eval": "E11_cli_check_exit_codes",
+      "pass": true
+    },
+    {
+      "detail": "caeb475884af0438a809af475c6e63d4",
+      "eval": "E12_fixture_pinned",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "eval": "E13_report_consistency",
+      "pass": true
+    }
+  ],
+  "total": 13
+}
